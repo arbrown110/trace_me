@@ -73,6 +73,7 @@ const App: () => Node = () => {
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             testing everything
+            <Image source={require('./asets/icon.pmg')} />
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
