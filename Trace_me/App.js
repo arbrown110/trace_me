@@ -78,9 +78,6 @@ const App: () => Node = () => {
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
           <Section title="Learn More">
             getting first commits in while testing my reading
           </Section>
@@ -102,7 +99,7 @@ const styles = StyleSheet.create({
   },
   sectionDescription: {
     marginTop: 8,
-    fontSize: 18,
+    fontSize: 15,
     fontWeight: '400',
   },
   highlight: {
